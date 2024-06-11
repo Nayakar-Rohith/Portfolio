@@ -5,10 +5,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius:{
+        'custom':'10% 0 10% 0'
+      },
+      backgroundColor:{
+        'app-bg-blue':'#ffffff',
+        'app-bg-head':'#450920',
+        'footer':'#02c39a'
+
+      },
       colors:{
-        'primary':'blue',
+        'primary':'#231942',
         'secondary':'red',
-        'tertiary':'green'
+        'tertiary':'green',
+        'textc':'#001d3d',
+        'card':'#058c42',
+        'gray':'#1a659e',
+        'skill':'#003459',
+        'edu':'#004e64',
+        'contact':'#0b2545',
       }
     },
   },

@@ -3,16 +3,16 @@ import rohithn from '../Pictures/rohithn.png'
 import './index.css'
 function About() {
   return (
-    <div className='bg-black'>
+    <div className='bg-app-bg-blue' id='about'>
     <div className='max-w-7xl mx-auto px-5 my-12'>
-      <div className='flex md:flex-row flex-col justify-between items-center text-white gap-4 py-10'>
+      <div className='flex md:flex-row flex-col justify-between items-center text-textc gap-4 py-10'>
       <div className="md:w-1/2 order-first md:order-none homeIMG relative">
             <div className='imgBox text-center'>
-            <img src={rohithn} alt="rohith" className='md:ml-20 w-full max-w-44 md:max-w-96'/>
+            <img src={rohithn} alt="rohith" className='md:ml-4 w-full max-w-44 md:max-w-96'/>
             </div>
             <div className='liquidImg'>
             <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-  <path  fill="#12f7ff">
+  <path  fill="#1b4965">
     <animate attributeName='d'
     dur='20000ms'
     repeatCount='indefinite'
@@ -31,7 +31,7 @@ function About() {
             </div>
         </div>
         <div className='md:w-1/2'>
-  <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About me</h2>
+  <h2 className="text-3xl font-bold tracking-tight text-textc sm:text-4xl">About me</h2>
   <p className="mt-6 text-lg leading-8 text-gray-300">
   Versatile Full Stack Developer with a strong enthusiasm for Machine Learning. 
         I am a committed professional in search of a dynamic role as a Full Stack Developer,
@@ -40,14 +40,14 @@ function About() {
          and make meaningful contributions to progressive projects.
   </p>
 <div className="mt-12  block  md:flex md:space-x-3">
-<button className='py-2 px-10 mb-8 w-60 rounded-md bg-primary text-white font-bold'>LinkedIn</button>
-<button className='py-2 px-10  mb-8  w-60 rounded-md bg-primary text-white font-bold'>Github</button>
+<a href='https://www.linkedin.com/in/nayakar-rohith' target="_blank"><button className='py-2 px-10  mb-8  w-60 rounded-md  hover:bg-footer hover:translation hover:duration-700 hover:rounded-custom bg-primary text-white font-bold'>LinkedIn</button></a>
+<a href='https://github.com/Nayakar-Rohith' target="_blank"><button className='py-2 px-10  mb-8  w-60 rounded-md  hover:bg-footer hover:translation hover:duration-700 hover:rounded-custom bg-primary text-white font-bold'>Github</button></a>
+
 </div>
         </div>
       </div>
     </div>
-
-  </div>
+    </div>
 
     
   )

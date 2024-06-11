@@ -1,14 +1,14 @@
 import React from 'react'
 import AUM from '../Pictures/AUM.jpg'
-import BML from '../Pictures/bmu.avif'
+import BML from '../Pictures/bmu.jpg'
 function Education() {
   return (
-    <section className="max-w-7xl mx-auto px-5 my-6 text-white ">
-      <h3 className="text-primary text-3xl font-bold mb-12 text-center">Education</h3>
+    <section className="max-w-7xl mx-auto px-5 my-6 text-textc " id='education'>
+      <h3 className="text-textc text-3xl font-bold mb-12 text-center">Education</h3>
       <div className='md:flex my-3 mx-3'>
-      <div className='md:flex my-3 mx-3 border border-purple-400  md:w-1/2'>
-        <div className='md:w-1/3 my-3 mx-4 '>
-          <img className='max-w-40' src={AUM} alt='AUM'/>
+      <div className='md:flex bg-edu rounded-3xl text-white my-3 mx-3 border border-primary  md:w-1/2'>
+        <div className='md:w-1/3 my-3 mx-4 grid items-center justify-center'>
+          <img className='w-32 h-32 rounded-full' src={AUM} alt='AUM'/>
         </div>
         <div className='md:w-2/3 my-3 mx-4 grid gap-3'>
           <h3>Auburn University at Montgomery</h3>
@@ -17,9 +17,9 @@ function Education() {
           <h7>GPA: 4/4</h7>
         </div>
       </div>
-      <div className='md:flex my-3 mx-3 border border-purple-400 md:w-1/2'>
-        <div className='md:w-1/3 my-3 mx-4'>
-          <img className='max-w-40' src={BML} alt='BML'/>
+      <div className='md:flex bg-edu rounded-3xl text-white my-3 mx-3 border border-primary md:w-1/2'>
+        <div className='md:w-1/3 my-3 mx-4 grid items-center justify-center'>
+          <img className='w-32 h-32 rounded-full' src={BML} alt='BML'/>
         </div>
         <div className='md:w-2/3 my-3 mx-4 grid gap-3'>
           <h3>BML Munjal University</h3>

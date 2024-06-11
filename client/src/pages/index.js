@@ -6,16 +6,18 @@ import Experience from './Experience'
 import Skills from './Skills'
 import Education from './Education'
 import Contacts from './Contacts'
+import Footer from '../components/Footer'
 function Home() {
   return (
-    <div className='bg-black'><Header/>
+    < >
     <MainPage/>
     <About/>
     <Experience/>
     <Skills/>
     <Education/>
     <Contacts/>
-    </div>
+    <Footer/>
+    </>
   )
 }
 

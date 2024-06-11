@@ -3,26 +3,26 @@ import rohithn from '../Pictures/rohithn.png'
 import './index.css'
 function MainPage() {
     const links = [
-        { name: 'About', href: '#' },
-        { name: 'Experience', href: '#' },
-        { name: 'Skills', href: '#' },
-        { name: 'Education', href: '#' },
-        { name: 'Contact', href: '#' },
+        { name: 'About', href: '#about' },
+        { name: 'Experience', href: '#experience' },
+        { name: 'Skills', href: '#skills' },
+        { name: 'Education', href: '#education' },
+        { name: 'Contact', href: '#contact' },
       ]
   return (
 
-    <div className='bg-black'>
+    <div className='bg-app-bg-blue'>
       <div className='max-w-7xl mx-auto px-5 md:my-12 mt-4'>
-        <div className='flex md:flex-row flex-col justify-between items-center text-white gap-4 py-10'>
+        <div className='flex md:flex-row flex-col justify-between items-center text-textc gap-4 py-10'>
           <div className='md:w-1/2'>
-          <h5 className='text-xl font-bold tracking-tight text-white sm:text-xl'>Hello, I'm </h5>
-    <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Rohith Nayakar</h2>
-    <h3 className="mt-1 text-2xl font-bold tracking-tight text-white sm:text-2xl">Full stack developer</h3>
+          <h5 className='text-xl font-bold tracking-tight text-textc sm:text-xl'>Hello, I'm </h5>
+    <h2 className="text-4xl font-bold tracking-tight text-textc sm:text-6xl">Rohith Nayakar</h2>
+    <h3 className="mt-1 text-2xl font-bold tracking-tight text-textc sm:text-2xl">Full stack developer</h3>
     <p className="mt-6 text-lg leading-8 text-gray-300">
     Full-stack developer with 2+ years of experience designing, developing, and implementing solutions with cutting-edge technologies.
     </p>
     <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-    <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+    <div className="grid grid-cols-1 gap-x-6 gap-y-6 text-base font-semibold leading-7 text-textc sm:grid-cols-2 md:flex lg:gap-x-10">
       {links.map((link) => (
         <a key={link.name} href={link.href}>
           {link.name} <span aria-hidden="true">&rarr;</span>
@@ -32,17 +32,17 @@ function MainPage() {
   </div>
 
   <div className="mt-12  block  md:flex md:space-x-3">
-  <button className='py-2 px-10 mb-8 w-60 rounded-md bg-primary text-white font-bold'>LinkedIn</button>
-  <button className='py-2 px-10  mb-8  w-60 rounded-md bg-primary text-white font-bold'>Download Resume</button>
+<a href='https://www.linkedin.com/in/nayakar-rohith' target="_blank"><button className='py-2 px-10  mb-8  w-60 rounded-md  hover:bg-footer hover:translation hover:duration-700 hover:rounded-custom bg-primary text-white font-bold'>LinkedIn</button></a>
+  <button className='py-2 px-10  mb-8  w-60 rounded-md hover:bg-footer hover:translation hover:duration-700 hover:rounded-custom bg-primary btn btn3 text-white font-bold'>Download Resume</button>
 </div>
           </div>
           <div className="md:w-1/2 order-first md:order-none homeIMG relative">
             <div className='imgBox text-center'>
-            <img src={rohithn} alt="rohith" className='md:ml-20 w-full max-w-44 md:max-w-96'/>
+            <img src={rohithn} alt="rohith" className='md:ml-4 w-full max-w-44 md:max-w-96'/>
             </div>
             <div className='liquidImg'>
             <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-  <path  fill="#12f7ff">
+  <path  fill="#1b4965">
     <animate attributeName='d'
     dur='20000ms'
     repeatCount='indefinite'
