@@ -12,7 +12,7 @@ function Education() {
         </div>
         <div className='md:w-2/3 my-3 mx-4 grid gap-3'>
           <h3>Auburn University at Montgomery</h3>
-          <h5><b>Field:</b> Master's in Computer Science</h5>
+          <h5>Field: Master's in Computer Science</h5>
           <h7>May 2023 - Dec 2024</h7>
           <h7>GPA: 4/4</h7>
         </div>
@@ -23,7 +23,7 @@ function Education() {
         </div>
         <div className='md:w-2/3 my-3 mx-4 grid gap-3'>
           <h3>BML Munjal University</h3>
-          <h5><b>Field:</b> BTech in Computer Science and Engineering</h5>
+          <h5>Field: BTech in Computer Science and Engineering</h5>
           <h7>Aug 2016 - Aug 2020</h7>
           <h7>GPA: 2.85/4</h7>
         </div>

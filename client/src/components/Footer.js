@@ -25,7 +25,7 @@ function Footer() {
   </path>
 </svg>
             </div>
-       <div className='flex px-10 bg-footer'>
+       <div className='flex px-10 bg-footer w-full justify-around'>
 
         <img className='w-5 my-3 mx-5' src={github} alt='github' />
         <a href="www.linkedin.com/in/nayakar-rohith"><img className='w-5 my-3 mx-5' src={linkedin} alt='linkedin' /></a>

@@ -1,0 +1,2 @@
+to run backend server : nodemon server
+to run frontend server: cd client, npm start
