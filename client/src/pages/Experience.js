@@ -23,8 +23,8 @@ function Experience() {
           />
           <div className='my-3'>
           <h5 className="text-xl">Full Stack Developer</h5>
-          <h7 className="">TATA Consultancy Services </h7>
-          <p class="text-xs">03/2021 – 12/2022</p>
+          <h5 className="">TATA Consultancy Services </h5>
+          <p className="text-xs">03/2021 – 12/2022</p>
           <p >&#128204;<span className='linear-text-gradient'> Pune, India</span></p>
           </div>
  
@@ -44,8 +44,8 @@ function Experience() {
           />
           <div className='my-3'>
           <h5 className="text-xl">Front End Developer Intern</h5>
-          <h7 className="">X0PA AI Private Limited </h7>
-          <p class="text-xs">07/2020 - 10/2020</p>
+          <h5 className="">X0PA AI Private Limited </h5>
+          <p className="text-xs">07/2020 - 10/2020</p>
           <p >&#128204;<span className='linear-text-gradient'>Hyderabad, India </span></p>
           </div>
           <p className="text-justify">
@@ -62,8 +62,8 @@ function Experience() {
           />
           <div className='my-3'>
           <h5 className="text-xl">Mobile Application Developer Intern</h5>
-          <h7 className="">Cedar IT Private Limited</h7>
-          <p class="text-xs">01/2020 - 05/2020</p>
+          <h5 className="">Cedar IT Private Limited</h5>
+          <p className="text-xs">01/2020 - 05/2020</p>
           <p >&#128204;<span className='linear-text-gradient'>Hyderabad, India </span></p>
           </div>
           <p className="text-justify">
