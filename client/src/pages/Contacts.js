@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { AddCommentAction } from '../Actions/CommentAction'
 
 function Contacts() {
   const [name,setName]=useState('')
   const [email,setEmail]=useState('')
   const [comment,setComment]=useState('')
-  const [feedback,setFeedback]=useState({})
-  const handleSubmit=()=>{
-    
-    console.log({'Name':name,'Email':email,'comment':comment})
-    setFeedback({name,email,comment})
-    console.log(feedback)
-    alert(feedback,"rrr")
+
+  const dispatch=useDispatch();
+  const comments=useSelector((state)=>state.comments)
+
+  const handleSubmit=(e)=>{
+    e.preventDefault()
+    dispatch(AddCommentAction({name:name,email:email,comment:comment}))
+    console.log("Contacts form",comments)
   }
   return (
     <section id='contact' className="text-textc  m-8 text-center" onSubmit={handleSubmit}>
